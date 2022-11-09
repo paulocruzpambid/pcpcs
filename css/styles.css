@@ -261,7 +261,6 @@ label {
 }
 
 @media print {
-
   body {
     margin: 0;
     background-color: #FFDCAE;
@@ -391,8 +390,4 @@ label {
   label {
     font-size: 12px;
   }
-
-
-
-
 }

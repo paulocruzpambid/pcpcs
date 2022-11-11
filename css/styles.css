@@ -82,19 +82,6 @@ h1 {
   font-size: 16px;
 }
 
-.h103 {
-  font-size: 16px;
-}
-
-.h104 {
-  display: block;
-  font-size: 16px;
-}
-
-.h105 {
-  font-size: 16px;
-}
-
 li {
   font-size: 12px;
   text-align: left;
@@ -172,24 +159,8 @@ label {
     font-size: 32px;
   }
 
-  .h103 {
-    font-size: 8px;
-  }
-
-  .h104 {
-    font-size: 32px;
-  }
-
-  .h105 {
-    font-size: 32px;
-  }
-
   li {
     font-size: 24px;
-  }
-
-  .li01 {
-
   }
 
   .img01 {

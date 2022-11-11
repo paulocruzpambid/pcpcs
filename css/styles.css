@@ -1,38 +1,38 @@
 body {
+  /*background-color: #FFDCAE;*/
   margin: 0;
-  background-color: #FFDCAE;
 }
 
 div {
-  font-family: 'Anton', sans-serif;
   /* #76BA99 #ADCF9F #CED89E #FFDCAE*/
   background-color: #FFDCAE;
-  color: #76BA99;
-  margin: 0;
   border: 0;
+  color: #76BA99;
+  font-family: 'Anton', sans-serif;
+  margin: 0;
   padding: 4px;
   text-align: center;
 }
 
 .div01 {
-  text-align: left;
   position: fixed;
-  width: 100%;
+  text-align: left;
   top: 0;
+  width: 100%;
 }
 
 .div02 {
-  clear: left;
   background-color: #76BA99;
+  clear: left;
   position: fixed;
-  width: 100%;
   top: 104px;
+  width: 100%;
 }
 
 .div03 {
+  bottom: 32px;
   position: fixed;
   width: 100%;
-  bottom: 32px;
 }
 
 .div04 {
@@ -45,22 +45,22 @@ div {
 }
 
 .div06 {
+  bottom: 0;
   position: fixed;
   width: 100%;
-  bottom: 0;
 }
 
 .div07 {
   position: fixed;
-  width: 100%;
   top: 136px;
+  width: 100%;
 }
 
 a {
-  text-decoration: none;
-  font-family: 'Anton', sans-serif;
-  font-size: .75rem;
   color: #76BA99;
+  font-family: 'Anton', sans-serif;
+  font-size: 12px;
+  text-decoration: none;
 }
 
 .a01 {
@@ -69,8 +69,8 @@ a {
 }
 
 h1 {
-  font-size: 12px;
   display: inline;
+  font-size: 12px;
   font-weight: normal;
 }
 
@@ -87,8 +87,8 @@ h1 {
 }
 
 .h104 {
-  font-size: 16px;
   display: block;
+  font-size: 16px;
 }
 
 .h105 {
@@ -106,13 +106,13 @@ li {
 }
 
 .img01 {
-  height: 96px;
   float: left;
+  height: 96px;
 }
 
 .img04 {
-  height: 96px;
   float: right;
+  height: 96px;
 }
 
 .img02 {
@@ -129,80 +129,40 @@ label {
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.5) {
-  body {
-    margin: 0;
-    background-color: #FFDCAE;
-  }
-
   div {
-    font-family: 'Anton', sans-serif;
-    /* #FFDCAE #d8c3a5 #8e8d8a #e98074 #76BA99*/
-    background-color: #FFDCAE;
-    color: #76BA99;
-    margin: 0;
-    border: 0;
     padding: 8px;
-    text-align: center;
-  }
-
-  .div01 {
-    text-align: left;
-    position: fixed;
-    width: 100%;
-    top: 0;
   }
 
   .div02 {
-    clear: left;
-    background-color: #76BA99;
-    position: fixed;
-    width: 100%;
     top: 208px;
   }
 
   .div03 {
-    position: fixed;
-    width: 100%;
-    bottom: 40px;
+    bottom: 64px;
   }
 
   .div04 {
-    display: inline-block;
     width: 768px;
   }
 
   .div05 {
-    margin: 324px 0 80px;
-  }
-
-  .div06 {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    margin: 336px 0 128px;
   }
 
   .div07 {
-    position: fixed;
-    width: 100%;
-    top: 260px;
+    top: 272px;
   }
 
   a {
-    text-decoration: none;
-    font-family: 'Anton', sans-serif;
-    font-size: 1.5rem;
-    color: #76BA99;
+    font-size: 24px;
   }
 
   .a01 {
-    color: #FFDCAE;
     margin: 8px;
   }
 
   h1 {
     font-size: 24px;
-    display: inline;
-    font-weight: normal;
   }
 
   .h101 {
@@ -214,12 +174,11 @@ label {
   }
 
   .h103 {
-    font-size: 16px;
+    font-size: 32px;
   }
 
   .h104 {
     font-size: 32px;
-    display: block;
   }
 
   .h105 {
@@ -227,167 +186,29 @@ label {
   }
 
   li {
-    font-size: 12px;
-    text-align: left;
+    font-size: 24px;
   }
 
   .li01 {
     font-size: 24px;
-    text-align: left;
   }
 
   .img01 {
     height: 192px;
-    float: left;
   }
 
   .img04 {
     height: 192px;
-    float: right;
   }
 
   .img02 {
-    height: 24px;
+    height: 32px;
     margin-left: 8px;
   }
 
-  .img03 {
-    width: inherit;
-  }
-
   label {
     font-size: 24px;
   }
 }
 
-@media print {
-  body {
-    margin: 0;
-    background-color: #FFDCAE;
-  }
-
-  div {
-    font-family: 'Anton', sans-serif;
-    /* #76BA99 #ADCF9F #CED89E #FFDCAE*/
-    background-color: #FFDCAE;
-    color: #76BA99;
-    margin: 0;
-    border: 0;
-    padding: 4px;
-    text-align: center;
-  }
-
-  .div01 {
-    text-align: left;
-    position: fixed;
-    width: 100%;
-    top: 0;
-  }
-
-  .div02 {
-    clear: left;
-    background-color: #76BA99;
-    position: fixed;
-    width: 100%;
-    top: 104px;
-  }
-
-  .div03 {
-    position: fixed;
-    width: 100%;
-    bottom: 32px;
-  }
-
-  .div04 {
-    display: inline-block;
-    width: 384px;
-  }
-
-  .div05 {
-    margin: 168px 0 64px;
-  }
-
-  .div06 {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  }
-
-  .div07 {
-    position: fixed;
-    width: 100%;
-    top: 136px;
-  }
-
-  a {
-    text-decoration: none;
-    font-family: 'Anton', sans-serif;
-    font-size: .75rem;
-    color: #76BA99;
-  }
-
-  .a01 {
-    color: #FFDCAE;
-    margin: 4px;
-  }
-
-  h1 {
-    font-size: 12px;
-    display: inline;
-    font-weight: normal;
-  }
-
-  .h101 {
-    font-size: 8px;
-  }
-
-  .h102 {
-    font-size: 16px;
-  }
-
-  .h103 {
-    font-size: 16px;
-  }
-
-  .h104 {
-    font-size: 16px;
-    display: block;
-  }
-
-  .h105 {
-    font-size: 16px;
-  }
-
-  li {
-    font-size: 12px;
-    text-align: left;
-  }
-
-  .li01 {
-    font-size: 12px;
-    text-align: left;
-  }
-
-  .img01 {
-    height: 96px;
-    float: left;
-  }
-
-  .img04 {
-    height: 96px;
-    float: right;
-  }
-
-  .img02 {
-    height: 16px;
-    margin-left: 4px;
-  }
-
-  .img03 {
-    width: inherit;
-  }
-
-  label {
-    font-size: 12px;
-  }
-}
+@media print {}

@@ -87,10 +87,6 @@ li {
   text-align: left;
 }
 
-.li01 {
-
-}
-
 .img01 {
   float: left;
   height: 96px;
@@ -108,10 +104,6 @@ li {
 
 .img03 {
   width: inherit;
-}
-
-label {
-  font-size: 12px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.5) {
@@ -174,10 +166,6 @@ label {
   .img02 {
     height: 32px;
     margin-left: 8px;
-  }
-
-  label {
-    font-size: 24px;
   }
 }
 

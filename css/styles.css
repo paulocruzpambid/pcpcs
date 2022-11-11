@@ -25,14 +25,18 @@ div {
   background-color: #76BA99;
   clear: left;
   position: fixed;
-  top: 104px;
+  top: 107px;
   width: 100%;
 }
 
-.div03 {
-  bottom: 32px;
+.div07 {
   position: fixed;
+  top: 140px;
   width: 100%;
+}
+
+.div05 {
+  margin: 173px 0 66px;
 }
 
 .div04 {
@@ -40,19 +44,15 @@ div {
   width: 384px;
 }
 
-.div05 {
-  margin: 168px 0 64px;
+.div03 {
+  bottom: 33px;
+  position: fixed;
+  width: 100%;
 }
 
 .div06 {
   bottom: 0;
   position: fixed;
-  width: 100%;
-}
-
-.div07 {
-  position: fixed;
-  top: 136px;
   width: 100%;
 }
 
@@ -137,20 +137,20 @@ label {
     top: 208px;
   }
 
-  .div03 {
-    bottom: 64px;
-  }
-
-  .div04 {
-    width: 768px;
+  .div07 {
+    top: 272px;
   }
 
   .div05 {
     margin: 336px 0 128px;
   }
 
-  .div07 {
-    top: 272px;
+  .div04 {
+    width: 768px;
+  }
+
+  .div03 {
+    bottom: 64px;
   }
 
   a {

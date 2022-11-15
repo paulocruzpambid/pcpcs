@@ -103,7 +103,28 @@ li {
 }
 
 .img03 {
+  vertical-align: top;
   width: inherit;
+}
+
+.div15, .div16, .div17, .div18, .div19, .div20 {
+  display: inline-block;
+}
+
+.div21, .div22, .div23, .div24, .div25, .div26, .div27, .div28, .div29, .div30 {
+  display: inline-block;
+}
+
+.div31, .div32, .div33, .div34, .div35, .div36, .div37, .div38, .div39, .div40 {
+  display: inline-block;
+}
+
+.div41, .div42, .div43, .div44, .div45, .div46, .div47, .div48, .div49, .div50 {
+  display: inline-block;
+}
+
+.div51, .div52, .div53, .div54, .div55, .div56, .div57, .div58, .div59, .div60 {
+  display: inline-block;
 }
 
 @media (-webkit-min-device-pixel-ratio: 1.5) {
@@ -169,4 +190,316 @@ li {
   }
 }
 
-@media print {}
+@media print {
+  body {
+    margin: 0;
+  }
+
+  div {
+    border: 0;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+  }
+
+  .div01 {
+    position: fixed;
+    text-align: left;
+    top: 0;
+    width: 100%;
+  }
+
+  .div02 {
+    clear: left;
+    position: fixed;
+    top: 107px;
+    width: 100%;
+  }
+
+  .div07 {
+    position: fixed;
+    top: 140px;
+    width: 100%;
+  }
+
+  .div05 {
+    margin: 173px 0 65px;
+  }
+
+  .div04 {
+    display: inline-block;
+    width: 480px;
+  }
+
+  .div03 {
+    bottom: 33px;
+    position: fixed;
+    width: 100%;
+  }
+
+  .div06 {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  a {
+    font-size: 12px;
+    text-decoration: none;
+  }
+
+  .a01 {
+    margin: 4px;
+  }
+
+  h1 {
+    display: inline;
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  .h101 {
+    font-size: 8px;
+  }
+
+  .h102 {
+    font-size: 16px;
+  }
+
+  li {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .img01 {
+    float: left;
+    height: 96px;
+  }
+
+  .img04 {
+    float: right;
+    height: 96px;
+  }
+
+  .img02 {
+    height: 16px;
+    margin-left: 4px;
+  }
+
+  .img03 {
+    vertical-align: top;
+    width: inherit;
+  }
+
+  .div15, .div16, .div17, .div18, .div19, .div20 {
+    display: block;
+  }
+
+  .div21, .div22, .div23, .div24, .div25, .div26, .div27, .div28, .div29, .div30 {
+    display: block;
+  }
+
+  .div31, .div32, .div33, .div34, .div35, .div36, .div37, .div38, .div39, .div40 {
+    display: block;
+  }
+
+  .div41, .div42, .div43, .div44, .div45, .div46, .div47, .div48, .div49, .div50 {
+    display: block;
+  }
+
+  .div51, .div52, .div53, .div54, .div55, .div56, .div57, .div58, .div59, .div60 {
+    display: block;
+  }
+
+  .div11 {
+    height: 480px;
+  }
+
+  .div12 {
+    height: 384px;
+  }
+
+  .div13 {
+    height: 384px;
+  }
+
+  .div14 {
+    height: 288px;
+  }
+
+  .div15 {
+    height: 672px;
+  }
+
+  .div16 {
+    height: 576px;
+  }
+
+  .div17 {
+    height: 336px;
+  }
+
+  .div18 {
+    height: 288px;
+  }
+
+  .div19 {
+    height: 384px;
+  }
+
+  .div20 {
+    height: 288px;
+  }
+
+  .div21 {
+    height: 528px;
+  }
+
+  .div22 {
+    height: 0px;
+  }
+
+  .div23 {
+    height: 240px;
+  }
+
+  .div24 {
+    height: 0px;
+  }
+
+  .div25 {
+    height: 240px;
+  }
+
+  .div26 {
+    height: 0px;
+  }
+
+  .div27 {
+    height: 240px;
+  }
+
+  .div28 {
+    height: 0px;
+  }
+
+  .div29 {
+    height: 240px;
+  }
+
+  .div30 {
+    height: 0px;
+  }
+
+  .div31 {
+    height: 240px;
+  }
+
+  .div32 {
+    height: 576px;
+  }
+
+  .div33 {
+    height: 288px;
+  }
+
+  .div34 {
+    height: 0px;
+  }
+
+  .div35 {
+    height: 240px;
+  }
+
+  .div36 {
+    height: 0px;
+  }
+
+  .div37 {
+    height: 240px;
+  }
+
+  .div38 {
+    height: 624px;
+  }
+
+  .div39 {
+    height: 288px;
+  }
+
+  .div40 {
+    height: 0px;
+  }
+
+  .div41 {
+    height: 240px;
+  }
+
+  .div42 {
+    height: 336px;
+  }
+
+  .div43 {
+    height: 576px;
+  }
+
+  .div44 {
+    height: 336px;
+  }
+
+  .div45 {
+    height: 0px;
+  }
+
+  .div46 {
+    height: 240px;
+  }
+
+  .div47 {
+    height: 0px;
+  }
+
+  .div48 {
+    height: 240px;
+  }
+
+  .div49 {
+    height: 0px;
+  }
+
+  .div50 {
+    height: 480px;
+  }
+
+  .div51 {
+    height: 0px;
+  }
+
+  .div52 {
+    height: 288px;
+  }
+
+  .div53 {
+    height: 384px;
+  }
+
+  .div54 {
+    height: 0px;
+  }
+
+  .div55 {
+    height: 384px;
+  }
+
+  .div56 {
+    height: 0px;
+  }
+
+  .div57 {
+    height: 384px;
+  }
+
+  .div58 {
+    height: 0px;
+  }
+}

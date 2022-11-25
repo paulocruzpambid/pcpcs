@@ -127,6 +127,10 @@ li {
   display: inline-block;
 }
 
+.div61, .div62, .div63, .div64, .div65, .div66, .div67, .div68, .div69, .div70 {
+  display: inline-block;
+}
+
 @media (-webkit-min-device-pixel-ratio: 1.5) {
   div {
     padding: 8px;
@@ -311,16 +315,20 @@ li {
     display: block;
   }
 
+  .div61, .div62, .div63, .div64, .div65, .div66, .div67, .div68, .div69, .div70 {
+    display: block;
+  }
+
   .div11 {
-    height: 480px;
+    height: 432px;
   }
 
   .div12 {
-    height: 384px;
+    height: 288px;
   }
 
   .div13 {
-    height: 384px;
+    height: 288px;
   }
 
   .div14 {
@@ -501,5 +509,21 @@ li {
 
   .div58 {
     height: 0px;
+  }
+
+  .div59 {
+    height: 432px;
+  }
+
+  .div60 {
+    height: 384px;
+  }
+
+  .div61 {
+    height: 336px;
+  }
+
+  .div62 {
+    height: 240px;
   }
 }

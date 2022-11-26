@@ -107,6 +107,11 @@ li {
   width: inherit;
 }
 
+.img05 {
+  vertical-align: top;
+  width: inherit;
+}
+
 .div15, .div16, .div17, .div18, .div19, .div20 {
   display: inline-block;
 }
@@ -293,6 +298,11 @@ li {
   .img03 {
     vertical-align: top;
     width: inherit;
+  }
+
+  .img05 {
+    vertical-align: top;
+    width: 336px;
   }
 
   .div15, .div16, .div17, .div18, .div19, .div20 {
@@ -508,7 +518,7 @@ li {
   }
 
   .div58 {
-    height: 0px;
+    height: 624px;
   }
 
   .div59 {
